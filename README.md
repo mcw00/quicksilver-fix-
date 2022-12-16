@@ -35,7 +35,7 @@ quicksilverd init <moniker-name> --chain-id=quicksilver-1
 ```
 quicksilverd keys add cüzdanadı --interactive
 ```
-'quicksilverd keys add cüzdanadı --interactive' Yukarıdaki kodu iki defa yapın. Birdefa yaparsanız priv key vermiyor. buraya mnemoniclerimizi yazıyoruz ne şifre girdiysek onceden hatırlıyorsanız onu yazıyoruz 2 defa cüzdanı eklıyor kontrol edin mainnet adresi olduğunu kaydettiğinizle
+``quicksilverd keys add cüzdanadı --interactive`` --> Bu kodu iki defa çalıştırın. ilkinde memonic ve şifre ister bunları girin. Sonra aynı kodu tekrar çalıştırın ve tekrar aynı memonic ve şifreyi girin. Daha sonra aşağıdaki kodu çalıştırıp priv key alın ve KEPLR a priv keyinizi ekleyin.
 
 ```
 quicksilverd keys export mainnetcüzdanadı --unarmored-hex --unsafe
